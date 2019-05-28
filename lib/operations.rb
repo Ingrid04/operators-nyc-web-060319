@@ -2,13 +2,13 @@ speed = 50
 
 def unsafe?(speed)
   if speed < 40
-    print "true"
+    return "true"
   elsif speed > 60
-    print "true"
+    return "true"
   else
-    print "false"
+    return "false"
 end
 
 def not_safe?(speed)
-	 40 < speed || speed > 60 ? "true" : "false"
+	 return (40 < speed || speed > 60) ? "true" : "false"
 end
