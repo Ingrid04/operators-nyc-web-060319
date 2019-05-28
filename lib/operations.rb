@@ -8,9 +8,6 @@ def unsafe?(speed)
   else
     print "false"
 end
-unsafe?
-
-speed = 50
 
 def not_safe?(speed)
 	 40 < speed > 60? "true" : "false"
